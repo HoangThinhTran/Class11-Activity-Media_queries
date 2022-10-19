@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+body {
+  background-color: pink;
+}
+
+@media screen and (min-width: 800px) {
+  #top {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #top {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    #top {
+      font-size: 40px;
+    }
+}
+
+.text {
+  border: 1px solid black;
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: white;
+}
+
+@media screen and (max-width: 800px) {
+  .text {
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .text {
+    padding: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: none;
+    background-color: yellow;
+  }
+}
+
+.text2 {
+  border: 1px solid black;
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: white;
+}
